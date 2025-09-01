@@ -8,7 +8,6 @@ __pycache__/
 
 # YOLO training outputs
 runs/
-*.pt
 
 # Roboflow dataset
 road-damage-1/

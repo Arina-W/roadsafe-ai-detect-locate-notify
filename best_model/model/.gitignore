@@ -1,0 +1,58 @@
+# -----------------------
+# Python cache / build
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# -----------------------
+# Pyenv
+# -----------------------
+.python-version
+
+# -----------------------
+# Logs & caches
+# -----------------------
+*.log
+*.out
+*.err
+.cache/
+.pytest_cache/
+.mypy_cache/
+__snapshots__/
+
+# -----------------------
+# Editors / OS junk
+# -----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Streamlit
+# -----------------------
+.streamlit/
+
+# -----------------------
+# Project-specific
+# -----------------------
+
+# Ignore all .pt files except the main checkpoint
+weights/*.pt
