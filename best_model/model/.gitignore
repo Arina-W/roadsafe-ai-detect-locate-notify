@@ -56,3 +56,6 @@ Thumbs.db
 
 # Ignore all .pt files except the main checkpoint
 weights/*.pt
+
+# Secrets
+secrets.toml
