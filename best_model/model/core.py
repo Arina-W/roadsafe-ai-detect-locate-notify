@@ -94,7 +94,7 @@ class Session:
         }
 
         # 🔎 Print full result to console for debugging/demo
-        print("🔎 RoadSafe prediction result:")
+        print("🔎 RoadSafe prediction result (data retrieved from model):")
         for k, v in result.items():
             print(f"  {k}: {v}")
 
