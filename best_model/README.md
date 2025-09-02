@@ -63,3 +63,8 @@ if f:
 streamlit run model/demo_streamlit.py
 ```
 
+### There is a MVP for the demo day too, just for getting an idea how the final potential product.
+
+```bash
+streamlit run model/demo_streamlit.py
+```
