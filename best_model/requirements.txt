@@ -1,5 +1,24 @@
+# torch>=2.0
+# torchvision>=0.15
+# pillow
+# streamlit>=1.33
+# pandas>=1.5
+
+# Core inference + packaged model
 torch>=2.0
 torchvision>=0.15
 pillow
-streamlit>=1.33
 pandas>=1.5
+
+# Streamlit app(s)
+streamlit>=1.33
+streamlit-folium>=0.18
+folium>=0.17
+
+# HTTP + .env for email/Overpass
+requests>=2.31.0
+python-dotenv>=1.0.1
+
+
+requests>=2.31
+python-dotenv>=1.0  # optional, only if you want to load email creds from .env
