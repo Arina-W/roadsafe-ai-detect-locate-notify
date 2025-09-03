@@ -1,6 +1,0 @@
-
-streamlit==1.37.1
-pillow>=10.0.0
-streamlit-js-eval==0.1.7
-streamlit-folium==0.22.0
-folium==0.17.0
